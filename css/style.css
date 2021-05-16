@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: linear-gradient(red,yellow);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+.txtb{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 10px;
+    color: white;
+    outline: none;
+    font-size: 1.3em;
+    color: white;
+    font-weight: 900;
+}
+h3{
+    margin: 10px 0;
+    font-size: 1.5em;
+    border: 3px solid black;
+    text-align: left;
+    background-color: whitesmoke;
+}
+.task{
+    background-color: rgba(225, 225, 225, 0.5);
+    width:100%;
+    padding: 10px;
+    margin: 6px 0;
+    overflow: hidden;
+    font-weight: 900;
+    font-size: 1.2em;
+    border: 2px solid black;
+}
+.task .done, .Delete{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.task .done{
+    padding: 5px 25px;
+    font-weight: 900;
+    color: white;
+    background-color: green;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid green;
+}
+.task .Delete{
+    padding: 5px 25px;
+    font-weight: 900;
+    color: red;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid; 
+}
+.comp .task{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+h2{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    transform: translateX(200px);
+    justify-content: center;
+    width: 40%;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 530px){
+    img{
+        transform: translateX(80px);
+    }
+}
+/* @media only screen and (max-width: 354px){
+  .container .add{
+    transform: translateX(250px);
+
+  }
+}
+.container .add{
+    padding: 5px 30px;
+    transform: translateX(250px);
+    background-color: black;
+    border: 3px solid white;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1em;
+    margin-top: 10px;    
+}
+.container .add:hover{
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+} */
